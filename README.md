@@ -5,7 +5,7 @@ This repository contains the verification artifact for the paper:
 **Certified Tail Bounds for Prime-Power Threshold Cutoff Sequences**  
 Wesley Atwell
 
-Archived release DOI: https://doi.org/10.5281/zenodo.20725627
+Archived releases DOI: https://doi.org/10.5281/zenodo.20725626
 
 The paper proves an explicit certified tail bound for a family of prime-power threshold cutoff sequences. The proof combines an elementary analytic handoff with a finite exact-prefix verification by a deterministic exact-integer verifier.
 
@@ -23,7 +23,7 @@ The result is independent of the Riemann hypothesis, Robin's criterion, and Laga
 | `SHA256SUMS` | SHA256 hashes for the archived artifact files |
 | `SHA256SUMS_ALL` | SHA256 hashes for repository metadata and artifact files |
 | `CITATION.cff` | Citation metadata for this artifact |
-| `.zenodo.json` | Zenodo archive metadata for the v1.0.0 release |
+| `.zenodo.json` | Zenodo archive metadata for the current release |
 | `LICENSE.md` | Licensing information |
 
 ## Main theorem
@@ -83,13 +83,13 @@ file-level license map. If a platform asks for one record-level license, use
 Current release tag:
 
 ```text
-v1.0.0
+v1.0.1
 ```
 
 Release title:
 
 ```text
-v1.0.0: Threshold-83 tail certificate
+v1.0.1: Split-license metadata clarification
 ```
 
 The release archive is configured for Zenodo metadata import through `.zenodo.json`.

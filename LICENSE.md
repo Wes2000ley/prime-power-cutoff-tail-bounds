@@ -11,7 +11,7 @@ PDF.
 |---|---|
 | `verify_tail_certificate.cpp` | MIT License |
 | `certificate.csv`, `SHA256SUMS`, `SHA256SUMS_ALL`, `CITATION.cff`, `.zenodo.json`, `.gitattributes`, `.gitignore` | CC0 1.0 Universal, to the extent permitted by law |
-| `README.md`, `BUILD_AND_VERIFY.txt`, `RELEASE_NOTES_v1.0.0.md` | Copyright (c) 2026 Wesley Atwell; redistribution as part of this repository's archival release is permitted |
+| `README.md`, `BUILD_AND_VERIFY.txt`, `RELEASE_NOTES_v1.0.0.md`, `RELEASE_NOTES_v1.0.1.md` | Copyright (c) 2026 Wesley Atwell; redistribution as part of this repository's archival release is permitted |
 | `certified_tail_bounds_prime_power_cutoffs.tex`, `certified_tail_bounds_prime_power_cutoffs.pdf` | Copyright (c) 2026 Wesley Atwell; not MIT-licensed. If a copy is later distributed through arXiv or another venue under a specific publication license, that license governs that venue's copy |
 
 For Zenodo or other services that require one record-level license selector, use

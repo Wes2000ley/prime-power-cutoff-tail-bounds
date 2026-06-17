@@ -8,7 +8,7 @@
       "affiliation": "Unaffiliated"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publication_date": "2026-06-17",
   "language": "eng",
   "access_right": "open",
@@ -22,9 +22,15 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/Wes2000ley/prime-power-cutoff-tail-bounds",
+      "identifier": "https://github.com/Wes2000ley/prime-power-cutoff-tail-bounds/releases/tag/v1.0.1",
       "relation": "isSupplementTo",
       "scheme": "url",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.5281/zenodo.20725626",
+      "relation": "isVersionOf",
+      "scheme": "doi",
       "resource_type": "software"
     }
   ]

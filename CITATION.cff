@@ -1,21 +1,21 @@
 cff-version: 1.2.0
 title: "Certified Tail Bounds for Prime-Power Threshold Cutoff Sequences"
-message: "If you use this verification artifact, please cite the archived release DOI. For reuse rights, see LICENSE.md; this repository uses split licensing."
+message: "If you use this verification artifact, please cite the archived Zenodo DOI. For reuse rights, see LICENSE.md; this repository uses split licensing."
 type: software
 authors:
   - family-names: Atwell
     given-names: Wesley
-doi: 10.5281/zenodo.20725627
+doi: 10.5281/zenodo.20725626
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.20725627
-    description: "Versioned Zenodo DOI for v1.0.0 of the verification artifact."
+    value: 10.5281/zenodo.20725626
+    description: "Zenodo concept DOI for the verification artifact."
   - type: url
-    value: "https://github.com/Wes2000ley/prime-power-cutoff-tail-bounds/releases/tag/v1.0.0"
-    description: "GitHub release URL for v1.0.0."
+    value: "https://github.com/Wes2000ley/prime-power-cutoff-tail-bounds/releases/tag/v1.0.1"
+    description: "GitHub release URL for v1.0.1."
 repository-code: "https://github.com/Wes2000ley/prime-power-cutoff-tail-bounds"
-url: "https://doi.org/10.5281/zenodo.20725627"
-version: "1.0.0"
+url: "https://doi.org/10.5281/zenodo.20725626"
+version: "1.0.1"
 date-released: "2026-06-17"
 abstract: "Verification artifact for an explicit certified tail bound for prime-power threshold cutoff sequences. The proof combines an elementary analytic handoff with a deterministic exact-integer finite-prefix verifier."
 keywords:
