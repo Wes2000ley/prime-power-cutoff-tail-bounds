@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Certified Tail Bounds for Prime-Power Threshold Cutoff Sequences"
+message: "If you use this verification artifact, please cite the archived release DOI."
+type: software
+authors:
+  - family-names: Atwell
+    given-names: Wesley
+repository-code: "https://github.com/Wes2000ley/prime-power-cutoff-tail-bounds"
+url: "https://github.com/Wes2000ley/prime-power-cutoff-tail-bounds/releases/tag/v1.0.0"
+version: "1.0.0"
+date-released: "2026-06-17"
+abstract: "Verification artifact for an explicit certified tail bound for prime-power threshold cutoff sequences. The proof combines an elementary analytic handoff with a deterministic exact-integer finite-prefix verifier."
+keywords:
+  - number theory
+  - discrete mathematics
+  - certified computation
+  - computer-assisted proof
+  - prime numbers
+  - prime-power cutoff sequences
+license: MIT

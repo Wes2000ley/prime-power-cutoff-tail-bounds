@@ -1,0 +1,44 @@
+Certified Tail Bounds for Prime-Power Threshold Cutoff Sequences
+
+Package contents:
+
+- certified_tail_bounds_prime_power_cutoffs.tex
+- certified_tail_bounds_prime_power_cutoffs.pdf
+- certificate.csv
+- verify_tail_certificate.cpp
+- SHA256SUMS
+
+PDF build command used in this audit:
+
+    tectonic certified_tail_bounds_prime_power_cutoffs.tex
+
+TeX engine used in this audit:
+
+    Tectonic 0.16.9
+
+Verification command used for the packaged certificate:
+
+    g++ -std=c++17 -O2 -Wall -Wextra -pedantic verify_tail_certificate.cpp -o verify_tail_certificate.exe
+    .\verify_tail_certificate.exe certificate.csv
+
+Compiler used in this audit:
+
+    g++.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) 13.2.0
+
+Expected final line:
+
+    ACCEPT threshold83 tail certificate
+
+The verifier is deterministic. It reads the 19 handoff rows in certificate.csv,
+requires the exact header m,T_m,g_m, accepts LF or CRLF line endings, rejects
+extra CSV columns, checks the integer analytic handoff inequality for each row
+using its own unsigned base-10^9 big-integer arithmetic, recomputes all primes
+t with 83 <= t < T_m, recomputes the successor prime u, recomputes every
+nonzero cutoff C_k(t) from powerTailSum(C_k,k) < powerTailSum(u,4), and verifies
+
+    sum_{k>=m} C_k(t) <= t - min(3m+1,2m+21,83).
+
+No floating-point arithmetic is used by the verifier.
+
+No exploratory threshold-generation script or external proof-assistant project
+is required to check the archived certificate.

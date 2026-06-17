@@ -1,0 +1,6 @@
+verify_tail_certificate
+verify_tail_certificate.exe
+*.aux
+*.log
+*.out
+*.synctex.gz
