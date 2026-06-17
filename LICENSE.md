@@ -2,11 +2,20 @@
 
 Copyright (c) 2026 Wesley Atwell.
 
-This repository uses split licensing:
+This repository is a mixed-license archival artifact. No single license applies
+to every file in the repository. In particular, the MIT License applies only to
+the verifier source code named below; it does not apply to the paper text or
+PDF.
 
-1. `verify_tail_certificate.cpp` is released under the MIT License below.
-2. `certificate.csv` and `SHA256SUMS` may be reused under CC0 1.0 Universal, to the extent permitted by law.
-3. The paper files `certified_tail_bounds_prime_power_cutoffs.tex` and `certified_tail_bounds_prime_power_cutoffs.pdf` are copyright Wesley Atwell. When posted on arXiv, the arXiv-hosted version should use the arXiv.org perpetual, non-exclusive license unless otherwise stated.
+| Files | License or rights status |
+|---|---|
+| `verify_tail_certificate.cpp` | MIT License |
+| `certificate.csv`, `SHA256SUMS`, `SHA256SUMS_ALL`, `CITATION.cff`, `.zenodo.json`, `.gitattributes`, `.gitignore` | CC0 1.0 Universal, to the extent permitted by law |
+| `README.md`, `BUILD_AND_VERIFY.txt`, `RELEASE_NOTES_v1.0.0.md` | Copyright (c) 2026 Wesley Atwell; redistribution as part of this repository's archival release is permitted |
+| `certified_tail_bounds_prime_power_cutoffs.tex`, `certified_tail_bounds_prime_power_cutoffs.pdf` | Copyright (c) 2026 Wesley Atwell; not MIT-licensed. If a copy is later distributed through arXiv or another venue under a specific publication license, that license governs that venue's copy |
+
+For Zenodo or other services that require one record-level license selector, use
+"Other (Open)" or "Mixed licenses; see `LICENSE.md`" rather than MIT.
 
 ## MIT License for verifier source code
 
@@ -31,5 +40,6 @@ SOFTWARE.
 ## CC0 notice for certificate data
 
 To the extent possible under law, Wesley Atwell waives copyright and related or
-neighboring rights in `certificate.csv` and `SHA256SUMS` under the Creative
-Commons CC0 1.0 Universal Public Domain Dedication.
+neighboring rights in `certificate.csv`, `SHA256SUMS`, `SHA256SUMS_ALL`,
+`CITATION.cff`, `.zenodo.json`, `.gitattributes`, and `.gitignore` under the
+Creative Commons CC0 1.0 Universal Public Domain Dedication.

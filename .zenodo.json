@@ -1,7 +1,7 @@
 {
   "title": "Certified Tail Bounds for Prime-Power Threshold Cutoff Sequences: Verification Artifact",
   "upload_type": "software",
-  "description": "Verification artifact for the paper <em>Certified Tail Bounds for Prime-Power Threshold Cutoff Sequences</em>. The artifact contains the paper source and PDF, a frozen threshold certificate, a standalone deterministic C++17 exact-integer verifier, build instructions, and SHA256 hashes. The verifier recomputes the finite-prefix rows from the cutoff definition and checks the threshold-83 tail certificate without floating-point arithmetic or exploratory search code.",
+  "description": "Verification artifact for the paper <em>Certified Tail Bounds for Prime-Power Threshold Cutoff Sequences</em>. The artifact contains the paper source and PDF, a frozen threshold certificate, a standalone deterministic C++17 exact-integer verifier, build instructions, and SHA256 hashes. The verifier recomputes the finite-prefix rows from the cutoff definition and checks the threshold-83 tail certificate without floating-point arithmetic or exploratory search code. This record uses split licensing: verifier source code is MIT-licensed; certificate, checksum, and metadata files are CC0-1.0 to the extent permitted by law; paper source and PDF are copyright Wesley Atwell and are not MIT-licensed. See LICENSE.md for file-level licensing.",
   "creators": [
     {
       "name": "Atwell, Wesley",
@@ -12,7 +12,7 @@
   "publication_date": "2026-06-17",
   "language": "eng",
   "access_right": "open",
-  "license": "mit",
+  "license": "other-open",
   "keywords": [
     "number theory",
     "discrete mathematics",

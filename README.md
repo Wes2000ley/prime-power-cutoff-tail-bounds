@@ -5,6 +5,8 @@ This repository contains the verification artifact for the paper:
 **Certified Tail Bounds for Prime-Power Threshold Cutoff Sequences**  
 Wesley Atwell
 
+Archived release DOI: https://doi.org/10.5281/zenodo.20725627
+
 The paper proves an explicit certified tail bound for a family of prime-power threshold cutoff sequences. The proof combines an elementary analytic handoff with a finite exact-prefix verification by a deterministic exact-integer verifier.
 
 The result is independent of the Riemann hypothesis, Robin's criterion, and Lagarias's criterion. Those topics motivate the cutoff sequence, but the theorem in this repository is a standalone certified cutoff-sequence theorem.
@@ -66,6 +68,15 @@ To verify file integrity:
 ```bash
 sha256sum -c SHA256SUMS
 ```
+
+## Licensing
+
+This is a mixed-license archival artifact. The verifier source code is
+MIT-licensed, the certificate/checksum/metadata files are released under CC0
+1.0 Universal to the extent permitted by law, and the paper source/PDF are
+copyright Wesley Atwell and are not MIT-licensed. See `LICENSE.md` for the
+file-level license map. If a platform asks for one record-level license, use
+"Other (Open)" or "Mixed licenses; see LICENSE.md" rather than MIT.
 
 ## Archival release
 

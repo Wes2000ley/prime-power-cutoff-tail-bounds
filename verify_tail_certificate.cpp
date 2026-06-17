@@ -1,3 +1,7 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Wesley Atwell.
+// See LICENSE.md for repository split licensing.
+
 #include <algorithm>
 #include <cstdint>
 #include <fstream>

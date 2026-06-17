@@ -26,3 +26,8 @@ ACCEPT threshold83 tail certificate
 ```
 
 The verifier uses no floating-point arithmetic and does not depend on exploratory search code.
+
+License note: this is a mixed-license archival artifact. The verifier source
+code is MIT-licensed, the certificate/checksum/metadata files are CC0-1.0 to
+the extent permitted by law, and the paper source/PDF are copyright Wesley
+Atwell and are not MIT-licensed. See `LICENSE.md`.
